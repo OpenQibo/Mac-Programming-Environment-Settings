@@ -1,0 +1,20 @@
+pip Installation:
+      # install command line tools (if not installed)
+      $ xcode-select --install
+
+      # install pip via easy_install
+      $ sudo easy_install pip
+
+      # show current pip version (optional)
+      $ pip --version
+
+
+Upgrade pip:      
+        # show current pip version (optional)
+        $ pip --version
+
+        # upgrade pip
+        $ sudo pip install --upgrade pip
+
+Use pip3 as pip:
+      alias pip=pip3
